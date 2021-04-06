@@ -6,12 +6,17 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: "/",
-      name: "index",
-      component: () => import("../views/index/index.vue"),
-      meta: {
-        keepAlive: true,
-      },
-  }
+    name: "index",
+    component: () => import("../views/index/index.vue"),
+    meta: {
+      keepAlive: true,
+    },
+  },
+  {
+    path: "/404",
+    name: "error",
+    component: () => import("../views/error/index.vue"),
+  },
 ];
 
 const router = new VueRouter({
