@@ -11,6 +11,7 @@
     "@tailwindcss/postcss7-compat": "^2.1.0",
     "animate.css": "^4.1.1",
     "autoprefixer": "^9",
+    "camelcase": "^6.2.0",
     "core-js": "^3.6.5",
     "lib-flexible": "^0.3.2",
     "postcss": "^7",
