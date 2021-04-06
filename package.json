@@ -9,9 +9,12 @@
   },
   "dependencies": {
     "@tailwindcss/postcss7-compat": "^2.1.0",
+    "animate.css": "^4.1.1",
     "autoprefixer": "^9",
     "core-js": "^3.6.5",
+    "lib-flexible": "^0.3.2",
     "postcss": "^7",
+    "reset.css": "^2.0.2",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
@@ -26,7 +29,9 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.14.1",
     "postcss-px2rem": "^0.3.0",
+    "sass-loader": "^10.1.1",
     "taco": "^1.6.0",
     "vue-template-compiler": "^2.6.11"
   },
