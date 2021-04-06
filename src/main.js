@@ -4,10 +4,12 @@ import router from "./router";
 import store from "./store";
 import "reset.css";
 import "./assets/css/tailwind.css";
+import i18n from "./utils/locales/index";
 
 Vue.config.productionTip = false;
 
 new Vue({
+  i18n,
   router,
   store,
   render: (h) => h(App),
