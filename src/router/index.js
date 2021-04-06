@@ -3,7 +3,16 @@ import VueRouter from "vue-router";
 
 Vue.use(VueRouter);
 
-const routes = [];
+const routes = [
+  {
+    path: "/",
+      name: "index",
+      component: () => import("../views/index/index.vue"),
+      meta: {
+        keepAlive: true,
+      },
+  }
+];
 
 const router = new VueRouter({
   routes,
