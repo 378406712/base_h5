@@ -1,7 +1,7 @@
 import axios from "axios";
 import store from "../store/index";
 import router from "vue-router";
-import { Msg } from "../utils/Message";
+import { Msg } from "../utils/message";
 const env = process.env.NODE_ENV;
 // 环境切换
 switch (env) {

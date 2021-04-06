@@ -3,12 +3,7 @@
 </template>
 
 <script>
-export default {
-  mounted() {
-    this.$NbGet('https://v1.hitokoto.cn/').then((res) => console.log(res))
-    console.log(this)
-  }
-}
+export default {}
 </script>
 
 <style>
